@@ -18,7 +18,7 @@ app.use(express.json());
 
 //Middlewares
 app.use(cors({
-    origins: ["http://127.0.0.1:5501", "http://127.0.0.1:5500","http://test-stock-bicicletas.azurewebsites.net"]
+    origins: ["http://127.0.0.1:5501", "http://127.0.0.1:5500","http://intentodespliegueappnodejs1.azurewebsites.net"]
 }))
 
 
@@ -119,7 +119,6 @@ app.delete('/api/productos/:id', (require,response)=>{
 });
 
 console.log(process.env)
-
 const puerto = process.env.PUERTO || 3000;
 
 app.listen(puerto, function(){
