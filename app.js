@@ -18,7 +18,7 @@ app.use(express.json());
 
 //Middlewares
 app.use(cors({
-    origins: ["http://127.0.0.1:5501", "http://127.0.0.1:5500","http://intentodespliegueappnodejs1.azurewebsites.net"]
+    origins: ["http://127.0.0.1:5501", "http://127.0.0.1:5500","https://bicicletas-stocktest1.azurewebsites.net/","https://bicicletas-stocktest1.azurewebsites.net"]
 }))
 
 
